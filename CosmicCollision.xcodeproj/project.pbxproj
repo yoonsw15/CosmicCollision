@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E335485C19DE790000DAF534 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E335485B19DE790000DAF534 /* Foundation.framework */; };
+		E335485E19DE790000DAF534 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E335485D19DE790000DAF534 /* CoreGraphics.framework */; };
+		E335486019DE790000DAF534 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E335485F19DE790000DAF534 /* UIKit.framework */; };
+		E335486219DE790000DAF534 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E335486119DE790000DAF534 /* SpriteKit.framework */; };
+		E335486819DE790100DAF534 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E335486619DE790100DAF534 /* InfoPlist.strings */; };
+		E335486A19DE790100DAF534 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E335486919DE790100DAF534 /* main.m */; };
+		E335486E19DE790100DAF534 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E335486D19DE790100DAF534 /* AppDelegate.m */; };
+		E335487119DE790100DAF534 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E335486F19DE790100DAF534 /* Main_iPhone.storyboard */; };
+		E335487419DE790100DAF534 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E335487219DE790100DAF534 /* Main_iPad.storyboard */; };
+		E335487719DE790100DAF534 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E335487619DE790100DAF534 /* ViewController.m */; };
+		E335487A19DE790100DAF534 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E335487919DE790100DAF534 /* MyScene.m */; };
+		E335487C19DE790100DAF534 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = E335487B19DE790100DAF534 /* Spaceship.png */; };
+		E335487E19DE790100DAF534 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E335487D19DE790100DAF534 /* Images.xcassets */; };
+		E335488519DE790100DAF534 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E335488419DE790100DAF534 /* XCTest.framework */; };
+		E335488619DE790100DAF534 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E335485B19DE790000DAF534 /* Foundation.framework */; };
+		E335488719DE790100DAF534 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E335485F19DE790000DAF534 /* UIKit.framework */; };
+		E335488F19DE790100DAF534 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E335488D19DE790100DAF534 /* InfoPlist.strings */; };
+		E335489119DE790100DAF534 /* CosmicCollisionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E335489019DE790100DAF534 /* CosmicCollisionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E335488819DE790100DAF534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E335485019DE790000DAF534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E335485719DE790000DAF534;
+			remoteInfo = CosmicCollision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E335485819DE790000DAF534 /* CosmicCollision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmicCollision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E335485B19DE790000DAF534 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E335485D19DE790000DAF534 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E335485F19DE790000DAF534 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E335486119DE790000DAF534 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		E335486519DE790100DAF534 /* CosmicCollision-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CosmicCollision-Info.plist"; sourceTree = "<group>"; };
+		E335486719DE790100DAF534 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E335486919DE790100DAF534 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E335486B19DE790100DAF534 /* CosmicCollision-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CosmicCollision-Prefix.pch"; sourceTree = "<group>"; };
+		E335486C19DE790100DAF534 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E335486D19DE790100DAF534 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E335487019DE790100DAF534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E335487319DE790100DAF534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E335487519DE790100DAF534 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E335487619DE790100DAF534 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E335487819DE790100DAF534 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		E335487919DE790100DAF534 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		E335487B19DE790100DAF534 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		E335487D19DE790100DAF534 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E335488319DE790100DAF534 /* CosmicCollisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmicCollisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E335488419DE790100DAF534 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E335488C19DE790100DAF534 /* CosmicCollisionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CosmicCollisionTests-Info.plist"; sourceTree = "<group>"; };
+		E335488E19DE790100DAF534 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E335489019DE790100DAF534 /* CosmicCollisionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CosmicCollisionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E335485519DE790000DAF534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E335485E19DE790000DAF534 /* CoreGraphics.framework in Frameworks */,
+				E335486019DE790000DAF534 /* UIKit.framework in Frameworks */,
+				E335486219DE790000DAF534 /* SpriteKit.framework in Frameworks */,
+				E335485C19DE790000DAF534 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E335488019DE790100DAF534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E335488519DE790100DAF534 /* XCTest.framework in Frameworks */,
+				E335488719DE790100DAF534 /* UIKit.framework in Frameworks */,
+				E335488619DE790100DAF534 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E335484F19DE790000DAF534 = {
+			isa = PBXGroup;
+			children = (
+				E335486319DE790100DAF534 /* CosmicCollision */,
+				E335488A19DE790100DAF534 /* CosmicCollisionTests */,
+				E335485A19DE790000DAF534 /* Frameworks */,
+				E335485919DE790000DAF534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E335485919DE790000DAF534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E335485819DE790000DAF534 /* CosmicCollision.app */,
+				E335488319DE790100DAF534 /* CosmicCollisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E335485A19DE790000DAF534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E335485B19DE790000DAF534 /* Foundation.framework */,
+				E335485D19DE790000DAF534 /* CoreGraphics.framework */,
+				E335485F19DE790000DAF534 /* UIKit.framework */,
+				E335486119DE790000DAF534 /* SpriteKit.framework */,
+				E335488419DE790100DAF534 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E335486319DE790100DAF534 /* CosmicCollision */ = {
+			isa = PBXGroup;
+			children = (
+				E335486C19DE790100DAF534 /* AppDelegate.h */,
+				E335486D19DE790100DAF534 /* AppDelegate.m */,
+				E335486F19DE790100DAF534 /* Main_iPhone.storyboard */,
+				E335487219DE790100DAF534 /* Main_iPad.storyboard */,
+				E335487519DE790100DAF534 /* ViewController.h */,
+				E335487619DE790100DAF534 /* ViewController.m */,
+				E335487819DE790100DAF534 /* MyScene.h */,
+				E335487919DE790100DAF534 /* MyScene.m */,
+				E335487B19DE790100DAF534 /* Spaceship.png */,
+				E335487D19DE790100DAF534 /* Images.xcassets */,
+				E335486419DE790100DAF534 /* Supporting Files */,
+			);
+			path = CosmicCollision;
+			sourceTree = "<group>";
+		};
+		E335486419DE790100DAF534 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E335486519DE790100DAF534 /* CosmicCollision-Info.plist */,
+				E335486619DE790100DAF534 /* InfoPlist.strings */,
+				E335486919DE790100DAF534 /* main.m */,
+				E335486B19DE790100DAF534 /* CosmicCollision-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E335488A19DE790100DAF534 /* CosmicCollisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				E335489019DE790100DAF534 /* CosmicCollisionTests.m */,
+				E335488B19DE790100DAF534 /* Supporting Files */,
+			);
+			path = CosmicCollisionTests;
+			sourceTree = "<group>";
+		};
+		E335488B19DE790100DAF534 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E335488C19DE790100DAF534 /* CosmicCollisionTests-Info.plist */,
+				E335488D19DE790100DAF534 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E335485719DE790000DAF534 /* CosmicCollision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E335489419DE790100DAF534 /* Build configuration list for PBXNativeTarget "CosmicCollision" */;
+			buildPhases = (
+				E335485419DE790000DAF534 /* Sources */,
+				E335485519DE790000DAF534 /* Frameworks */,
+				E335485619DE790000DAF534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CosmicCollision;
+			productName = CosmicCollision;
+			productReference = E335485819DE790000DAF534 /* CosmicCollision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E335488219DE790100DAF534 /* CosmicCollisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E335489719DE790100DAF534 /* Build configuration list for PBXNativeTarget "CosmicCollisionTests" */;
+			buildPhases = (
+				E335487F19DE790100DAF534 /* Sources */,
+				E335488019DE790100DAF534 /* Frameworks */,
+				E335488119DE790100DAF534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E335488919DE790100DAF534 /* PBXTargetDependency */,
+			);
+			name = CosmicCollisionTests;
+			productName = CosmicCollisionTests;
+			productReference = E335488319DE790100DAF534 /* CosmicCollisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E335485019DE790000DAF534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Cosmos;
+				TargetAttributes = {
+					E335488219DE790100DAF534 = {
+						TestTargetID = E335485719DE790000DAF534;
+					};
+				};
+			};
+			buildConfigurationList = E335485319DE790000DAF534 /* Build configuration list for PBXProject "CosmicCollision" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E335484F19DE790000DAF534;
+			productRefGroup = E335485919DE790000DAF534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E335485719DE790000DAF534 /* CosmicCollision */,
+				E335488219DE790100DAF534 /* CosmicCollisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E335485619DE790000DAF534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E335487C19DE790100DAF534 /* Spaceship.png in Resources */,
+				E335487E19DE790100DAF534 /* Images.xcassets in Resources */,
+				E335487419DE790100DAF534 /* Main_iPad.storyboard in Resources */,
+				E335487119DE790100DAF534 /* Main_iPhone.storyboard in Resources */,
+				E335486819DE790100DAF534 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E335488119DE790100DAF534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E335488F19DE790100DAF534 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E335485419DE790000DAF534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E335487A19DE790100DAF534 /* MyScene.m in Sources */,
+				E335487719DE790100DAF534 /* ViewController.m in Sources */,
+				E335486E19DE790100DAF534 /* AppDelegate.m in Sources */,
+				E335486A19DE790100DAF534 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E335487F19DE790100DAF534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E335489119DE790100DAF534 /* CosmicCollisionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E335488919DE790100DAF534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E335485719DE790000DAF534 /* CosmicCollision */;
+			targetProxy = E335488819DE790100DAF534 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E335486619DE790100DAF534 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E335486719DE790100DAF534 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E335486F19DE790100DAF534 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E335487019DE790100DAF534 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E335487219DE790100DAF534 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E335487319DE790100DAF534 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E335488D19DE790100DAF534 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E335488E19DE790100DAF534 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E335489219DE790100DAF534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E335489319DE790100DAF534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E335489519DE790100DAF534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CosmicCollision/CosmicCollision-Prefix.pch";
+				INFOPLIST_FILE = "CosmicCollision/CosmicCollision-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E335489619DE790100DAF534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CosmicCollision/CosmicCollision-Prefix.pch";
+				INFOPLIST_FILE = "CosmicCollision/CosmicCollision-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E335489819DE790100DAF534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CosmicCollision.app/CosmicCollision";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CosmicCollision/CosmicCollision-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CosmicCollisionTests/CosmicCollisionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E335489919DE790100DAF534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CosmicCollision.app/CosmicCollision";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CosmicCollision/CosmicCollision-Prefix.pch";
+				INFOPLIST_FILE = "CosmicCollisionTests/CosmicCollisionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E335485319DE790000DAF534 /* Build configuration list for PBXProject "CosmicCollision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E335489219DE790100DAF534 /* Debug */,
+				E335489319DE790100DAF534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E335489419DE790100DAF534 /* Build configuration list for PBXNativeTarget "CosmicCollision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E335489519DE790100DAF534 /* Debug */,
+				E335489619DE790100DAF534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E335489719DE790100DAF534 /* Build configuration list for PBXNativeTarget "CosmicCollisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E335489819DE790100DAF534 /* Debug */,
+				E335489919DE790100DAF534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E335485019DE790000DAF534 /* Project object */;
+}
